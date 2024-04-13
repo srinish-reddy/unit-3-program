@@ -1,0 +1,41 @@
+npm init -y
+npm install express
+
+Middleware  Password  Encryption:
+***********************************
+In CMD:
+Yet Another Resource Negotiator (yarn)
+
+Step1: D:\FULL STACK DEVELOPMENT\UNIT-III>mkdir nodehashing
+       D:\FULL STACK DEVELOPMENT\UNIT-III>cd nodehashing
+       D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>code .
+Step2:
+        D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>npm install -g yarn
+	added 1 package in 1s
+	D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>yarn init -y
+	yarn init v1.22.22
+Step3:
+	Install packages
+	 D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>yarn add express ejs
+	 D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>yarn add nodemon --dev
+	 D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>yarn add bcrypt
+
+Step4:
+	How to Run:
+	 D:\FULL STACK DEVELOPMENT\UNIT-III\cd nodehashing>yarn run devStart
+
+In package.json:
+*******************
+"scripts": {
+    "devStart": "nodemon server.js"
+  },
+
+
+JWT:
+
+open node in CMD
+
+require('crypto').randomBytes(64).toString('hex')
+
+
+	
