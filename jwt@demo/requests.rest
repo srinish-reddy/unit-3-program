@@ -1,0 +1,10 @@
+GET http://localhost:6000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU3JpbmlzaCIsImlhdCI6MTcxMjk4NzkyOX0.0vEzHbSMcvZaFWf5r0ZvWOgtr2RLcqUzpnIwP00tyxg
+###
+
+POST http://localhost:6000/login
+Content-Type: application/json
+
+{
+    "username":"Srinish"
+}
